@@ -15,6 +15,6 @@ jobs:
       - name: checkout Source Code
         uses: cloudbees-io/checkout@v1
       - name: Scan with Grype
-        uses: cloudbees-io/grype-plugin@CBP-35850
+        uses: cloudbees-io/grype-plugin@v1
         with:
           binary-tar-path: ./python.tar
